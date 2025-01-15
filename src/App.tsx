@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <div className="m-4">
-      <div className="grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 lg:grid-rows-12 gap-4 h-[150svh]">
+      <div className="grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 lg:grid-rows-12 gap-4 h-[180svh]">
         {/* cols-1 */}
         <div className="lg:col-span-1   lg:row-span-6 md:row-span-2  place-content-center items-center ">
           <img
@@ -37,16 +37,16 @@ function App() {
             className="object-cover h-full  rounded-2xl w-full"
           />
         </div>
-        <div className="lg:col-span-2 lg:row-span-6  md:row-span-4   place-content-center items-center ">
+        <div className="lg:col-span-1 lg:row-span-6  md:row-span-4   place-content-center items-center ">
           <img
             src={
               "https://photo-grid-xi.vercel.app/assets/astronaut-gOCFgbpq.webp"
             }
             alt={"5"}
-            className="object-center h-full  rounded-2xl w-full"
+            className="object-cover h-full  rounded-2xl w-full"
           />
         </div>
-        <div className="lg:col-span-2 lg:row-span-3 md:row-span-2  place-content-center items-center ">
+        <div className="lg:col-span-3 lg:row-span-3 md:row-span-2  place-content-center items-center ">
           <img
             src={
               "https://photo-grid-xi.vercel.app/assets/bedroom-DTV6Z5Pv.webp"
@@ -61,16 +61,16 @@ function App() {
               "https://photo-grid-xi.vercel.app/assets/var-baddie-D6LsFdTV.webp"
             }
             alt={"7"}
-            className="object-center h-full  rounded-2xl w-full"
+            className="object-cover h-full  rounded-2xl w-full"
           />
         </div>
-        <div className="lg:col-start-4 lg:col-end-6 lg:row-span-3  md:row-span-2 place-content-center items-center ">
+        <div className="lg:col-start-3 lg:col-end-6 lg:row-span-3  md:row-span-2 place-content-center items-center ">
           <img
             src={
               "https://photo-grid-xi.vercel.app/assets/dark-mannequin-CKI6McgY.webp"
             }
             alt={"8"}
-            className="object-center h-full  rounded-2xl w-full"
+            className="object-cover h-full  rounded-2xl w-full"
           />
         </div>
       </div>
