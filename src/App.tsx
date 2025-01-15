@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <div className="m-4">
-      <div className="grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 lg:grid-rows-12 gap-2 h-[150svh] md:h-svh">
+      <div className="grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 lg:grid-rows-12 gap-4 h-[150svh]">
         {/* cols-1 */}
         <div className="lg:col-span-1   lg:row-span-6 md:row-span-2  place-content-center items-center ">
           <img
