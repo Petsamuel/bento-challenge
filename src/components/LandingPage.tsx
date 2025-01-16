@@ -9,9 +9,9 @@ import img8 from "../assets/images/illustration-schedule-posts.webp";
 
 export const LandingPage = () => {
   return (
-    <div className="m-4 font-DmSans bg-white">
-      <div className="grid lg:grid-cols-4 lg:grid-rows-2 auto-rows-auto lg:h-[200svh]  lg:gap-10 gap-5  overflow-hidden relative w-full">
-        <div className="bg-yellows-100 lg:col-span-1 lg:row-auto rounded-xl flex items-center lg:h-[33rem]   ">
+    <div className="m-[6rem] font-DmSans  flex justify-center items-center">
+      <div className="grid lg:grid-cols-4 lg:grid-rows-2 auto-rows-auto lg:h-[165svh]  lg:gap-10 gap-5  overflow-hidden relative w-full">
+        <div className="bg-yellows-100 lg:col-span-1 lg:row-auto rounded-xl flex items-center lg:h-[70svh]   ">
           <div className="p-6 flex flex-col justify-center items-center gap-8">
             <p className="font-medium text-5xl">
               Create and schedule content{" "}
@@ -64,14 +64,14 @@ export const LandingPage = () => {
               alt=""
               className="object-cover flex justify-end w-[30rem] ml-[8rem] rounded-full shadow-sm"
             />
-            <p className="text-5xl font-medium">
+            <p className="text-4xl font-medium">
               Manage multiple accounts and platforms.
             </p>
           </div>
         </div>
         <div className="bg-yellows-500  rounded-xl shadow-lg overflow-hidden lg:row-auto row-start-3">
           <div className="p-6 flex flex-col justify-center lg:items-center items-start gap-8  my-4 h-full">
-            <p className="lg:text-4xl text-5xl lg:mb-4 mb-10 font-medium ">
+            <p className="lg:text-4xl text-5xl lg:mb-8 my-10 font-medium ">
               {" "}
               Maintain a consistent posting schedule.
             </p>
