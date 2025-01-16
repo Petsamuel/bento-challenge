@@ -61,7 +61,7 @@ export const LandingPage = () => {
           <div className="p-5 flex flex-col justify-center items-center gap-4 my-4 w-full">
             <img
               src={img7}
-              alt=""
+              alt="img-7"
               className="object-cover flex justify-end w-[30rem] ml-[8rem] rounded-full shadow-sm"
             />
             <p className="text-4xl font-medium">
@@ -75,7 +75,7 @@ export const LandingPage = () => {
               {" "}
               Maintain a consistent posting schedule.
             </p>
-            <img src={img3} alt="" className="object-cover w-[30rem] " />
+            <img src={img3} alt="img-3" className="object-cover w-[30rem] " />
           </div>
         </div>
         <div className="bg-yellows-500 lg:col-span-1  rounded-xl overflow-hidden lg:row-start-2 lg:mt-[8rem] lg:row-span-2">
@@ -83,7 +83,7 @@ export const LandingPage = () => {
             <p>Write your content using AI.</p>
             <div>
               {" "}
-              <img src={img1} className="object-cover  " />
+              <img src={img1} className="object-cover  " alt="img-1" />
             </div>
           </div>
         </div>
@@ -95,14 +95,14 @@ export const LandingPage = () => {
             </div>
             <img
               src={img2}
-              alt=""
+              alt="img-2"
               className="object-cover flex justify-end w-[18rem] pt-4"
             />
           </div>
         </div>
         <div className="bg-purples-500 lg:col-start-3 lg:col-end-5 rounded-xl row-start-5 lg:row-auto">
           <div className="p-6 flex lg:flex-row flex-col items-center gap-4 text-white text-4xl font-medium h-full">
-            <img src={img6} alt="" className="object-contain w-[18rem] " />
+            <img src={img6} alt="img-6" className="object-contain w-[18rem] " />
             <p>Grow followers with non-stop content.</p>
           </div>
         </div>
