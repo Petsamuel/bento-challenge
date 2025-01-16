@@ -9,7 +9,7 @@ import img8 from "../assets/images/illustration-schedule-posts.webp";
 
 export const LandingPage = () => {
   return (
-    <div className="m-[6rem] font-DmSans  flex justify-center items-center">
+    <div className="lg:m-[6rem] m-4 font-DmSans  flex justify-center items-center">
       <div className="grid lg:grid-cols-4 lg:grid-rows-2 auto-rows-auto lg:h-[165svh]  lg:gap-10 gap-5  overflow-hidden relative w-full">
         <div className="bg-yellows-100 lg:col-span-1 lg:row-auto rounded-xl flex items-center lg:h-[70svh]   ">
           <div className="p-6 flex flex-col justify-center items-center gap-8">
@@ -42,14 +42,14 @@ export const LandingPage = () => {
           </div>
         </div>
         <div className="bg-purple-100 lg:col-span-1 lg:row-span-2 rounded-xl overflow-hidden row-start-4">
-          <div className="p-6 flex flex-col lg:justify-evenly justify-center gap-4 items-center  w-full h-full">
+          <div className="p-6 flex flex-col lg:justify-evenly justify-center gap-2 items-center  w-full h-full">
             <p className="font-medium text-4xl text-balance mt-4">
               Schedule to social media.
             </p>
             <img
               src={img8}
               alt="img-6"
-              className="object-cover flex justify-end  lg:ml-[18rem] lg:min-w-[30rem] "
+              className="object-cover flex justify-end  lg:ml-[18rem] lg:min-w-[25rem] "
             />
             <p className="font-normal pt-[1rem] text-balance  w-full lg:text-xl text-2xl text-center lg:text-start">
               Optimize post timings to publish content at the perfect time for
@@ -71,7 +71,7 @@ export const LandingPage = () => {
         </div>
         <div className="bg-yellows-500  rounded-xl shadow-lg overflow-hidden lg:row-auto row-start-3">
           <div className="p-6 flex flex-col justify-center lg:items-center items-start gap-8  my-4 h-full">
-            <p className="lg:text-4xl text-5xl lg:mb-8 my-10 font-medium ">
+            <p className="lg:text-4xl text-5xl lg:mb-2 my-10 font-medium">
               {" "}
               Maintain a consistent posting schedule.
             </p>
