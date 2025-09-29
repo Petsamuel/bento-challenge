@@ -1,7 +1,7 @@
 import "./App.css";
 import { LandingPage } from "./components/LandingPage";
 import Page from "./components/Page";
-const landingPage = false;
+const landingPage = true;
 function App() {
   return <>{landingPage ? <LandingPage /> : <Page />}</>;
 }
